@@ -1,5 +1,6 @@
+
 # 1.谷歌公共库和字体库国内镜像服务器搭建
-# 2.谷歌公共库替换成微锐公共库实现国内CDN加速
+# 2.谷歌公共库替换微锐公共库实现国内CDN加速
 
 由于国内访问谷歌字体较慢或直接被墙，所以制作了国内镜像进行加速。
 如果技术有限无法完成镜像搭建，可以看下方替换域名使用微锐公共库。
@@ -36,4 +37,4 @@
 如果你不会配置以上程序没有关系，手动替换以下链接就能使用微锐公共库：
 把 `https://ajax.googleapis.com/` 替换为 `https://ajax.weirui.org/` 
 把 `https://fonts.googleapis.com/` 替换为 `https://fonts.weirui.org/` 
-需要同时支持HTTP和HTPPS方式访问，请改为相对链接`//ajax.weirui.org`或`//fonts.weirui.org`即可。
+需同时支持HTTP和HTPPS访问请改为相对链接 `//ajax.weirui.org/` 或 `//fonts.weirui.org/` 

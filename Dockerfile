@@ -1,5 +1,5 @@
 FROM php:5-apache
-MAINTAINER WeiRui <service@weirui.org>
+MAINTAINER Cee <yezixi@live.cn>
 
 RUN apt-get update -qq
 RUN apt-get upgrade -y

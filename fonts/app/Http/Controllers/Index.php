@@ -5,6 +5,6 @@ class Index extends Controller
 {
     public function index()
     {
-        return view('index', array('title'=>'Google Fonts 国内镜像加速支持SSL（HTTPS） - 微锐'));
+        return view('index', array('title'=>'谷歌字体库 - 微锐前端公共库CDN镜像'));
     }
 }

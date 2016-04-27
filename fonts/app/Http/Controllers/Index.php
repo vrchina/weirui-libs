@@ -5,6 +5,6 @@ class Index extends Controller
 {
     public function index()
     {
-        return view('index', array('title'=>'谷歌字体库 - 微锐前端公共库CDN镜像'));
+        return view('index', array('title'=>'谷歌字体库CDN镜像 - 微锐公共库 - libs.weirui.org'));
     }
 }
